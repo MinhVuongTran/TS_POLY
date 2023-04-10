@@ -1,0 +1,43 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0 !important;
+}
+
+.short-description {
+    -webkit-box-sizing: border-box;
+    display: inline-block;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+/* 
+.product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.product-images {
+    width: 40%;
+    margin-right: 2rem;
+}
+
+.product-info {
+    width: 55%;
+}
+
+.product-price {
+    margin: 1rem 0;
+}
+
+.product-description {
+    margin-top: 2rem;
+} */
